@@ -1,2 +1,2 @@
-# eztracks
+# com.eztracks
 Tracks your daily spend and generates reports 

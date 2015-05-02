@@ -1,0 +1,202 @@
+{
+    "chartLayouts": [],
+    "charts": [],
+    "displayName": null,
+    "filters": [],
+    "layout": null,
+    "name": "globaladmin",
+    "noOfColumns": null,
+    "parameterDisplayConfig": [],
+    "permissions": [],
+    "tabs": null,
+    "views": [
+        {
+            "chartLayouts": [
+                {
+                    "chartId": 15,
+                    "height": "100",
+                    "heightUnit": null,
+                    "width": "100",
+                    "widthUnit": null,
+                    "sizeX": "1",
+                    "sizeY": "1"
+                },
+                {
+                    "chartId": 12,
+                    "height": "100",
+                    "heightUnit": null,
+                    "width": "100",
+                    "widthUnit": null,
+                    "sizeX": "4",
+                    "sizeY": "2"
+                },
+                {
+                    "chartId": 14,
+                    "height": "100",
+                    "heightUnit": null,
+                    "width": "100",
+                    "widthUnit": null,
+                    "sizeX": "1",
+                    "sizeY": "1"
+                },
+                {
+                    "chartId": 13,
+                    "height": "100",
+                    "heightUnit": null,
+                    "width": "100",
+                    "widthUnit": null,
+                    "sizeX": "1",
+                    "sizeY": "1"
+                },
+                {
+                    "chartId": 16,
+                    "height": "100",
+                    "heightUnit": null,
+                    "width": "100",
+                    "widthUnit": null,
+                    "sizeX": "1",
+                    "sizeY": "1"
+                }
+            ],
+            "charts": [
+                {
+                    "defaultDisplayOption": {
+                        "displayType": "VALUE",
+                        "series": null,
+                        "x_axes": null,
+                        "y_axes": "TOTAL_TXNS"
+                    },
+                    "displayName": "Total Customers",
+                    "displayOptions": [],
+                    "filters": [],
+                    "name": "totalCustomersValueChart",
+                    "parameterDisplayConfig": [],
+                    "permissions": [],
+                    "querySelector": null
+                },
+                {
+                    "defaultDisplayOption": {
+                        "displayType": "BAR",
+                        "series": null,
+                        "x_axes": "MERCHANT",
+                        "y_axes": "TOTAL_TXNS"
+                    },
+                    "displayName": "Transaction Chart",
+                    "displayOptions": [
+                        {
+                            "displayType": "PIE",
+                            "series": null,
+                            "x_axes": null,
+                            "y_axes": "TOTAL_TXNS"
+                        },
+                        {
+                            "displayType": "BAR",
+                            "series": null,
+                            "x_axes": "MERCHANT",
+                            "y_axes": "TOTAL_TXNS"
+                        }
+                    ],
+                    "filters": [],
+                    "name": "txnChart",
+                    "parameterDisplayConfig": [],
+                    "permissions": [],
+                    "querySelector": null
+                },
+                {
+                    "defaultDisplayOption": {
+                        "displayType": "VALUE",
+                        "series": null,
+                        "x_axes": null,
+                        "y_axes": "TOTAL_TXNS"
+                    },
+                    "displayName": "Total Transactions",
+                    "displayOptions": [],
+                    "filters": [],
+                    "name": "totalTxnsValueChart",
+                    "parameterDisplayConfig": [],
+                    "permissions": [],
+                    "querySelector": null
+                },
+                {
+                    "defaultDisplayOption": {
+                        "displayType": "VALUE",
+                        "series": null,
+                        "x_axes": null,
+                        "y_axes": "TOTAL_TXNS"
+                    },
+                    "displayName": "Total Sales",
+                    "displayOptions": [],
+                    "filters": [],
+                    "name": "totalSalesValueChart",
+                    "parameterDisplayConfig": [],
+                    "permissions": [],
+                    "querySelector": null
+                },
+                {
+                    "defaultDisplayOption": {
+                        "displayType": "VALUE",
+                        "series": null,
+                        "x_axes": null,
+                        "y_axes": "TOTAL_TXNS"
+                    },
+                    "displayName": "Active Users",
+                    "displayOptions": [],
+                    "filters": [],
+                    "name": "activeUsersValueChart",
+                    "parameterDisplayConfig": [],
+                    "permissions": [],
+                    "querySelector": null
+                }
+            ],
+            "displayName": "Transactions",
+            "filters": [
+                {
+                    "class": "com.mastercard.labs.qkr.report.FilterOption",
+                    "id": 2,
+                    "columnName": null,
+                    "dataProvider": null,
+                    "filterType": null,
+                    "mandatory": false,
+                    "name": "Time_Period",
+                    "referenceClass": null,
+                    "referenceId": null,
+                    "showOnPage": false,
+                    "tableName": null
+                },
+                {
+                    "class": "com.mastercard.labs.qkr.report.FilterOption",
+                    "id": 3,
+                    "columnName": null,
+                    "dataProvider": null,
+                    "filterType": null,
+                    "mandatory": false,
+                    "name": "Business_Category",
+                    "referenceClass": null,
+                    "referenceId": null,
+                    "showOnPage": false,
+                    "tableName": null
+                },
+                {
+                    "class": "com.mastercard.labs.qkr.report.FilterOption",
+                    "id": 1,
+                    "columnName": null,
+                    "dataProvider": null,
+                    "filterType": null,
+                    "mandatory": false,
+                    "name": "Time_Range",
+                    "referenceClass": null,
+                    "referenceId": null,
+                    "showOnPage": false,
+                    "tableName": null
+                }
+            ],
+            "layout": null,
+            "name": "Transactions",
+            "noOfColumns": null,
+            "parameterDisplayConfig": [],
+            "permissions": [],
+            "tabs": null,
+            "views": []
+        }
+    ]
+}
